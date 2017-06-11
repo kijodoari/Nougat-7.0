@@ -180,7 +180,7 @@ echo
 echo "${bldcya}***** Make archives *****${txtrst}"
 
 cp -R ./sickness ${KERNELDIR}/output/$TARGET/
-cp -R ./supersu ${KERNELDIR}/output/$TARGET/
+cp -R ./rootzip ${KERNELDIR}/output/$TARGET/
 cp -R ./busybox ${KERNELDIR}/output/$TARGET/
 cp ./$TARGET/boot.img ${KERNELDIR}/output/$TARGET/sickness
 cp -R ./system ${KERNELDIR}/output/$TARGET/
