@@ -44,6 +44,7 @@ ro.config.dmverity=false
 ro.config.rkp=false
 ro.config.kap_default_on=false
 ro.config.kap=false
+ro.securestorage.support=false
 
 #
 # BOOTIMAGE_BUILD_PROPERTIES
