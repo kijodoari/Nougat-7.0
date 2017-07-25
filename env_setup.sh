@@ -76,7 +76,7 @@ export TMPFILE=`mktemp -t`;
 
 
 # system compiler
-export CROSS_COMPILE=/home/sick/aarch64-7.0/bin/aarch64-
+export CROSS_COMPILE=/home/sick/aarch64-6.3/bin/aarch64-
 
 
 # CPU Core

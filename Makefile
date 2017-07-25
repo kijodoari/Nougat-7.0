@@ -5,7 +5,7 @@ EXTRAVERSION =
 NAME = TOSSUG Baby Fish
 
 #TOOLCHAIN_DIR = $(CURDIR)/toolchain/aarch64-7.0/bin/aarch64-
-TOOLCHAIN_DIR =/home/sick/aarch64-7.0/bin/aarch64-
+TOOLCHAIN_DIR =/home/sick/aarch64-6.3/bin/aarch64-
 
 ifdef CONFIG_WITH_CCACHE
 ccache := ccache
