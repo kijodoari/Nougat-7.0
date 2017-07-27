@@ -126,7 +126,7 @@ echo
 echo "${bldcya}***** Make ramdisk *****${txtrst}"
 
 # make modules
-make -j10 modules ARCH=arm64  || exit 1;
+make -j50 modules ARCH=arm64  || exit 1;
 
 # find modules
 for i in $(find "$KERNELDIR" -name '*.ko'); do
@@ -214,8 +214,8 @@ echo "${bldcya}***** Clean source *****${txtrst}"
 cd ${KERNELDIR}
 read -p "Do you want to Clean the source? (y/n) > " mc
 if [ "$mc" = "Y" -o "$mc" = "y" ]; then
-	xterm -e make clean
-	xterm -e make mrproper
+	sudo  make clean
+	sudo make mrproper
 fi
 
 echo
