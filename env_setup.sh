@@ -70,6 +70,16 @@ if [ "$TARGET" = "G920T" ] ; then
 	export KERNEL_CONFIG="custom_defconfig";
 fi;
 
+# G920F
+if [ "$TARGET" = "G920F" ] ; then
+	export KERNEL_CONFIG="custom_defconfig";
+fi;
+
+# G925F
+if [ "$TARGET" = "G925T" ] ; then
+	export KERNEL_CONFIG="custom_defconfig_2";
+fi;
+
 # build script
 export USER=`whoami`;
 export TMPFILE=`mktemp -t`;
